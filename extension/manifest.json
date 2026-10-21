@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "BuyWise — AI Product Verdict",
+  "version": "0.1.0",
+  "description": "Evidence-first AI product due diligence on the page you're viewing.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:8000/*"],
+  "action": {
+    "default_title": "Analyze this product",
+    "default_popup": "index.html"
+  }
+}
